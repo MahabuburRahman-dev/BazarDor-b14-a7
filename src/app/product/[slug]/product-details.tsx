@@ -49,8 +49,8 @@ export default function ProductDetails({ product }: { product: Product }) {
           </div>
           <h1>{product.nameBn}</h1>
           <p>
-            বাংলাদেশের বিভিন্ন বাজারে {product.nameBn}-এর আজকের সম্ভাব্য মূল্য ও
-            বাজারভিত্তিক দামের তুলনা।
+            বাংলাদেশের বিভিন্ন জেলার বাজারে {product.nameBn}-এর আজকের সম্ভাব্য
+            মূল্য ও বাজারভিত্তিক দামের তুলনা।
           </p>
           <div className="detail-current">
             <small>আজকের গড় বাজারদর</small>
