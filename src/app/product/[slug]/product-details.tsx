@@ -126,7 +126,7 @@ export default function ProductDetails({ product }: { product: Product }) {
           </div>
         ) : (
           <div className="empty-state compact">
-            <p>এই পণ্যের বাজারভিত্তিক তথ্য আপাতত পাওয়া যাচ্ছে না।</p>
+            <p>এই পণ্যে টির বাজারভিত্তিক তথ্য আপাতত পাওয়া যাচ্ছে না।</p>
           </div>
         )}
       </section>
