@@ -160,7 +160,7 @@ export default function Navbar({ categories }: { categories: Category[] }) {
                   : p.change?.dir === "down"
                     ? "▼"
                     : "—"}{" "}
-                {p.change?.pct?.toLocaleString("bn-BD") || "০"}%
+                {p.change?.pct?.toLocaleString("bn-BD") || "0"}%
               </em>
             </Link>
           ))}
